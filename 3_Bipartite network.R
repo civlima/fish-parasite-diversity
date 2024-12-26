@@ -11,7 +11,7 @@ setwd("C:/Users/vitor/OneDrive/Papers/Lima et al/2024/Thesis/Chapter 1 - Parasit
 source("Scripts/2_Relative abundance plot.R")
 
 # Install packages
-library(tidyverse); library(bipartite);
+library(bipartite);
 
 # Upload data for taxa
 peld_parasites_taxa <- read.csv("peld_parasites_taxa.csv", header = TRUE, sep = ";") 
