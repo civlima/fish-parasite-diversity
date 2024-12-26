@@ -7,6 +7,9 @@
 # Set the directory
 setwd("C:/Users/vitor/OneDrive/Papers/Lima et al/2024/Thesis/Chapter 1 - Parasites of Paraiba")
 
+# Load the previous script
+source("Scripts/1_Collector curve.R")
+
 # Upload the file
 taxa_hosts <- read.csv("PELD_Parasitos_Grandes grupos.csv", header = T, sep = ";")
 
