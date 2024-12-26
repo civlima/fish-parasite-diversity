@@ -1,4 +1,4 @@
-# New records of fish parasites in the reservoirs of Paraiba state
+# Unveiling new data on fish parasite diversity in reservoirs of the Brazilian semi-arid
 # Written by Vitoria Lima, 2024 
 # Thesis chapter 1 
 
@@ -6,6 +6,9 @@
 
 # Set the directory
 setwd("C:/Users/vitor/OneDrive/Papers/Lima et al/2024/Thesis/Chapter 1 - Parasites of Paraiba")
+
+# Load the previous script
+source("Scripts/2_Relative abundance plot.R")
 
 # Install packages
 library(tidyverse); library(bipartite);
